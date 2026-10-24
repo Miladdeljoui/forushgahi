@@ -52,11 +52,14 @@ main{padding:0 16px}.welcome{position:relative;overflow:hidden;background:linear
 <script>
 const phoneNumber='09122375820';
 const productsData=[
-{id:'p1',name:'تجهیزات آبخوری مرغداری',category:'آبخوری',description:'انواع تجهیزات آب‌رسانی و آبخوری',price:null,icon:'💧'},
-{id:'p2',name:'تجهیزات دانخوری مرغداری',category:'دانخوری',description:'تجهیزات تغذیه و دان‌رسانی',price:null,icon:'🌾'},
-{id:'p3',name:'تجهیزات تهویه',category:'تهویه',description:'تجهیزات گردش هوا و تهویه سالن',price:null,icon:'🌀'},
-{id:'p4',name:'تجهیزات گرمایشی',category:'گرمایشی',description:'تجهیزات گرمایش سالن مرغداری',price:null,icon:'🌡️'},
-{id:'p5',name:'لوازم و قطعات جانبی',category:'لوازم جانبی',description:'قطعات و تجهیزات تکمیلی',price:null,icon:'⚙️'}
+{id:'pars-1',name:'آبخوری کبوتر پارس',category:'آبخوری',description:'آبخوری مخصوص کبوتر از محصولات برند پارس؛ برای قیمت و موجودی استعلام بگیرید.',price:null,icon:'💧',source:'https://digitoyour.com/product-brands/pars/page/3/'},
+{id:'pars-2',name:'دانخوری جوجه یک‌روزه پارس',category:'دانخوری',description:'دانخوری مناسب جوجه یک‌روزه؛ مشخصات و موجودی نیازمند تأیید فروشگاه است.',price:null,icon:'🌾',source:'https://digitoyour.com/product-brands/pars/page/3/'},
+{id:'pars-3',name:'آبخوری اتوماتیک پلاسون پارس',category:'آبخوری',description:'آبخوری اتوماتیک از محصولات معرفی‌شده با برند پارس؛ برای قیمت و سازگاری استعلام بگیرید.',price:null,icon:'🚰',source:'https://digitoyour.com/product-brands/pars/page/3/'},
+{id:'pars-4',name:'کفی آبخوری دستی ۴ لیتری طرح فلزی پارس',category:'آبخوری',description:'کفی آبخوری دستی ۴ لیتری طرح فلزی؛ موجودی و جزئیات فنی را از فروشگاه بپرسید.',price:null,icon:'🪣',source:'https://digitoyour.com/product-brands/pars/page/3/'},
+{id:'pars-5',name:'قطعات و متعلقات آبخوری پارس',category:'لوازم جانبی',description:'نمونه دسته‌بندی برای قطعات جانبی؛ مدل دقیق باید با فهرست اصلی تطبیق داده شود.',price:null,icon:'⚙️',source:'https://digitoyour.com/product-brands/pars/page/3/'},
+{id:'pars-6',name:'تجهیزات دان‌رسانی پارس',category:'دانخوری',description:'نمونه دسته‌بندی تجهیزات دان‌رسانی؛ نام مدل و موجودی نیازمند بررسی کاتالوگ اصلی است.',price:null,icon:'🌾',source:'https://digitoyour.com/product-brands/pars/page/3/'},
+{id:'pars-7',name:'تجهیزات آب‌رسانی مرغداری پارس',category:'آبخوری',description:'نمونه دسته‌بندی تجهیزات آب‌رسانی؛ برای مدل دقیق و قیمت تماس بگیرید.',price:null,icon:'💦',source:'https://digitoyour.com/product-brands/pars/page/3/'},
+{id:'pars-8',name:'لوازم جانبی مرغداری پارس',category:'لوازم جانبی',description:'نمونه دسته‌بندی لوازم جانبی؛ فهرست نهایی باید از صفحه برند استخراج و تأیید شود.',price:null,icon:'🔩',source:'https://digitoyour.com/product-brands/pars/page/3/'}
 ];
 const cart={};let activeCategory='همه';const favorites=new Set();let savedOrders=[];let savedAddresses=[];
 const faNum=n=>Number(n).toLocaleString('fa-IR');
